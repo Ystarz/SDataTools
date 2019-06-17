@@ -7,6 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+//File
+#import "SFileTool.h"
+
+//Data
+#import "SNSStringTool.h"
+#import "STimeTool.h"
+#import "SDataConvertTool.h"
+
+
+
 
 //! Project version number for STools.
 FOUNDATION_EXPORT double SToolsVersionNumber;

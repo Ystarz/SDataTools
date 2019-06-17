@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182F3CE822B76AA0009023F2 /* STools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* STools.framework */; };
+		18207A5D22B77D170003688E /* STimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4C22B77D170003688E /* STimeTool.m */; };
+		18207A5F22B77D170003688E /* SDataConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4F22B77D170003688E /* SDataConvertTool.m */; };
+		18207A6222B77D170003688E /* NSString+SExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5222B77D170003688E /* NSString+SExtension.m */; };
+		18207A6422B77D170003688E /* STimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5422B77D170003688E /* STimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18207A6522B77D170003688E /* SDataConvertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5522B77D170003688E /* SDataConvertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18207A6622B77D170003688E /* NSString+SExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5622B77D170003688E /* NSString+SExtension.h */; };
+		18207A6922B77D170003688E /* SFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5A22B77D170003688E /* SFileTool.m */; };
+		18207A6B22B77D170003688E /* SFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5C22B77D170003688E /* SFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18207A9622B787DF0003688E /* SNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A9522B785C00003688E /* SNSStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -23,10 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		182F3CDE22B76AA0009023F2 /* STools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18207A4C22B77D170003688E /* STimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STimeTool.m; sourceTree = "<group>"; };
+		18207A4F22B77D170003688E /* SDataConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDataConvertTool.m; sourceTree = "<group>"; };
+		18207A5222B77D170003688E /* NSString+SExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SExtension.m"; sourceTree = "<group>"; };
+		18207A5422B77D170003688E /* STimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STimeTool.h; sourceTree = "<group>"; };
+		18207A5522B77D170003688E /* SDataConvertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDataConvertTool.h; sourceTree = "<group>"; };
+		18207A5622B77D170003688E /* NSString+SExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SExtension.h"; sourceTree = "<group>"; };
+		18207A5A22B77D170003688E /* SFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFileTool.m; sourceTree = "<group>"; };
+		18207A5C22B77D170003688E /* SFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFileTool.h; sourceTree = "<group>"; };
+		18207A6C22B77E040003688E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18207A9522B785C00003688E /* SNSStringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSStringTool.h; sourceTree = "<group>"; };
+		182F3CDE22B76AA0009023F2 /* SDataTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDataTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CE122B76AA0009023F2 /* STools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STools.h; sourceTree = "<group>"; };
 		182F3CE222B76AA0009023F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182F3CE722B76AA0009023F2 /* SToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CEC22B76AA0009023F2 /* SToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SToolsTests.m; sourceTree = "<group>"; };
 		182F3CEE22B76AA0009023F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,17 +62,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182F3CE822B76AA0009023F2 /* STools.framework in Frameworks */,
+				182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18207A9122B783610003688E /* Convert */ = {
+			isa = PBXGroup;
+			children = (
+				18207A5522B77D170003688E /* SDataConvertTool.h */,
+				18207A4F22B77D170003688E /* SDataConvertTool.m */,
+			);
+			path = Convert;
+			sourceTree = "<group>";
+		};
+		18207A9222B785480003688E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18207A9422B785A60003688E /* NSString */,
+				18207A5422B77D170003688E /* STimeTool.h */,
+				18207A4C22B77D170003688E /* STimeTool.m */,
+				18207A9122B783610003688E /* Convert */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18207A9322B7855A0003688E /* File */ = {
+			isa = PBXGroup;
+			children = (
+				18207A5C22B77D170003688E /* SFileTool.h */,
+				18207A5A22B77D170003688E /* SFileTool.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		18207A9422B785A60003688E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				18207A5622B77D170003688E /* NSString+SExtension.h */,
+				18207A5222B77D170003688E /* NSString+SExtension.m */,
+				18207A9522B785C00003688E /* SNSStringTool.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		182F3CD422B76AA0009023F2 = {
 			isa = PBXGroup;
 			children = (
-				182F3CE022B76AA0009023F2 /* STools */,
+				182F3CE022B76AA0009023F2 /* SDataTools */,
 				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 				182F3CDF22B76AA0009023F2 /* Products */,
 			);
@@ -62,19 +120,22 @@
 		182F3CDF22B76AA0009023F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				182F3CDE22B76AA0009023F2 /* STools.framework */,
-				182F3CE722B76AA0009023F2 /* SToolsTests.xctest */,
+				182F3CDE22B76AA0009023F2 /* SDataTools.framework */,
+				182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		182F3CE022B76AA0009023F2 /* STools */ = {
+		182F3CE022B76AA0009023F2 /* SDataTools */ = {
 			isa = PBXGroup;
 			children = (
-				182F3CE122B76AA0009023F2 /* STools.h */,
+				18207A9322B7855A0003688E /* File */,
+				18207A9222B785480003688E /* Data */,
 				182F3CE222B76AA0009023F2 /* Info.plist */,
+				182F3CE122B76AA0009023F2 /* STools.h */,
+				18207A6C22B77E040003688E /* PrefixHeader.pch */,
 			);
-			path = STools;
+			path = SDataTools;
 			sourceTree = "<group>";
 		};
 		182F3CEB22B76AA0009023F2 /* SToolsTests */ = {
@@ -93,6 +154,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18207A6B22B77D170003688E /* SFileTool.h in Headers */,
+				18207A6422B77D170003688E /* STimeTool.h in Headers */,
+				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
+				18207A9622B787DF0003688E /* SNSStringTool.h in Headers */,
+				18207A6622B77D170003688E /* NSString+SExtension.h in Headers */,
 				182F3CEF22B76AA0009023F2 /* STools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,27 +166,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		182F3CDD22B76AA0009023F2 /* STools */ = {
+		182F3CDD22B76AA0009023F2 /* SDataTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 182F3CF222B76AA0009023F2 /* Build configuration list for PBXNativeTarget "STools" */;
+			buildConfigurationList = 182F3CF222B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SDataTools" */;
 			buildPhases = (
 				182F3CD922B76AA0009023F2 /* Headers */,
 				182F3CDA22B76AA0009023F2 /* Sources */,
 				182F3CDB22B76AA0009023F2 /* Frameworks */,
 				182F3CDC22B76AA0009023F2 /* Resources */,
+				18207A9722B788250003688E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = STools;
+			name = SDataTools;
 			productName = STools;
-			productReference = 182F3CDE22B76AA0009023F2 /* STools.framework */;
+			productReference = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		182F3CE622B76AA0009023F2 /* SToolsTests */ = {
+		182F3CE622B76AA0009023F2 /* SDataToolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 182F3CF522B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SToolsTests" */;
+			buildConfigurationList = 182F3CF522B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SDataToolsTests" */;
 			buildPhases = (
 				182F3CE322B76AA0009023F2 /* Sources */,
 				182F3CE422B76AA0009023F2 /* Frameworks */,
@@ -131,9 +198,9 @@
 			dependencies = (
 				182F3CEA22B76AA0009023F2 /* PBXTargetDependency */,
 			);
-			name = SToolsTests;
+			name = SDataToolsTests;
 			productName = SToolsTests;
-			productReference = 182F3CE722B76AA0009023F2 /* SToolsTests.xctest */;
+			productReference = 182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 182F3CD822B76AA0009023F2 /* Build configuration list for PBXProject "STools" */;
+			buildConfigurationList = 182F3CD822B76AA0009023F2 /* Build configuration list for PBXProject "SDataTools" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				182F3CDD22B76AA0009023F2 /* STools */,
-				182F3CE622B76AA0009023F2 /* SToolsTests */,
+				182F3CDD22B76AA0009023F2 /* SDataTools */,
+				182F3CE622B76AA0009023F2 /* SDataToolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,11 +255,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18207A9722B788250003688E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh /Users/sss/sjf/shell/common/05-create-fw-common-ios.sh /Users/sss/Library/Developer/Xcode/DerivedData/SDataTools-dyxiekkqgtngasgvmzyqojsbyxvk/Build/Products SDataTools /Users/sss/sjf/IOS/Library/SDataTools/Framework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182F3CDA22B76AA0009023F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18207A6922B77D170003688E /* SFileTool.m in Sources */,
+				18207A5D22B77D170003688E /* STimeTool.m in Sources */,
+				18207A5F22B77D170003688E /* SDataConvertTool.m in Sources */,
+				18207A6222B77D170003688E /* NSString+SExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		182F3CEA22B76AA0009023F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 182F3CDD22B76AA0009023F2 /* STools */;
+			target = 182F3CDD22B76AA0009023F2 /* SDataTools */;
 			targetProxy = 182F3CE922B76AA0009023F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -343,14 +434,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = STools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SDataTools/PrefixHeader.pch";
+				INFOPLIST_FILE = SDataTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sss.STools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.SDataTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,14 +459,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = STools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SDataTools/PrefixHeader.pch";
+				INFOPLIST_FILE = SDataTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sss.STools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.SDataTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		182F3CD822B76AA0009023F2 /* Build configuration list for PBXProject "STools" */ = {
+		182F3CD822B76AA0009023F2 /* Build configuration list for PBXProject "SDataTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				182F3CF022B76AA0009023F2 /* Debug */,
@@ -427,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		182F3CF222B76AA0009023F2 /* Build configuration list for PBXNativeTarget "STools" */ = {
+		182F3CF222B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SDataTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				182F3CF322B76AA0009023F2 /* Debug */,
@@ -436,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		182F3CF522B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SToolsTests" */ = {
+		182F3CF522B76AA0009023F2 /* Build configuration list for PBXNativeTarget "SDataToolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				182F3CF622B76AA0009023F2 /* Debug */,
