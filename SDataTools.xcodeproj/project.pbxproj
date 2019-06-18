@@ -111,7 +111,7 @@
 		182F3CD422B76AA0009023F2 = {
 			isa = PBXGroup;
 			children = (
-				182F3CE022B76AA0009023F2 /* SDataTools */,
+				182F3CE022B76AA0009023F2 /* Classes */,
 				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 				182F3CDF22B76AA0009023F2 /* Products */,
 			);
@@ -126,7 +126,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		182F3CE022B76AA0009023F2 /* SDataTools */ = {
+		182F3CE022B76AA0009023F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				18207A9322B7855A0003688E /* File */,
@@ -135,7 +135,7 @@
 				182F3CE122B76AA0009023F2 /* STools.h */,
 				18207A6C22B77E040003688E /* PrefixHeader.pch */,
 			);
-			path = SDataTools;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		182F3CEB22B76AA0009023F2 /* SToolsTests */ = {
