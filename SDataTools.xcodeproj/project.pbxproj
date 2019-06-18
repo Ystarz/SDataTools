@@ -16,6 +16,7 @@
 		18207A6922B77D170003688E /* SFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5A22B77D170003688E /* SFileTool.m */; };
 		18207A6B22B77D170003688E /* SFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5C22B77D170003688E /* SFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18207A9622B787DF0003688E /* SNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A9522B785C00003688E /* SNSStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18207AC122B8BF6C0003688E /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 18207A6C22B77E040003688E /* PrefixHeader.pch */; };
 		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,22 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18207A9122B783610003688E /* Convert */ = {
-			isa = PBXGroup;
-			children = (
-				18207A5522B77D170003688E /* SDataConvertTool.h */,
-				18207A4F22B77D170003688E /* SDataConvertTool.m */,
-			);
-			path = Convert;
-			sourceTree = "<group>";
-		};
 		18207A9222B785480003688E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				18207A9422B785A60003688E /* NSString */,
+				18207A5622B77D170003688E /* NSString+SExtension.h */,
+				18207A5222B77D170003688E /* NSString+SExtension.m */,
+				18207A9522B785C00003688E /* SNSStringTool.h */,
+				18207A5522B77D170003688E /* SDataConvertTool.h */,
+				18207A4F22B77D170003688E /* SDataConvertTool.m */,
 				18207A5422B77D170003688E /* STimeTool.h */,
 				18207A4C22B77D170003688E /* STimeTool.m */,
-				18207A9122B783610003688E /* Convert */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -96,16 +91,6 @@
 				18207A5A22B77D170003688E /* SFileTool.m */,
 			);
 			path = File;
-			sourceTree = "<group>";
-		};
-		18207A9422B785A60003688E /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				18207A5622B77D170003688E /* NSString+SExtension.h */,
-				18207A5222B77D170003688E /* NSString+SExtension.m */,
-				18207A9522B785C00003688E /* SNSStringTool.h */,
-			);
-			path = NSString;
 			sourceTree = "<group>";
 		};
 		182F3CD422B76AA0009023F2 = {
@@ -129,11 +114,11 @@
 		182F3CE022B76AA0009023F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				182F3CE222B76AA0009023F2 /* Info.plist */,
+				18207A6C22B77E040003688E /* PrefixHeader.pch */,
 				18207A9322B7855A0003688E /* File */,
 				18207A9222B785480003688E /* Data */,
-				182F3CE222B76AA0009023F2 /* Info.plist */,
 				182F3CE122B76AA0009023F2 /* STools.h */,
-				18207A6C22B77E040003688E /* PrefixHeader.pch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,6 +144,7 @@
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
 				18207A9622B787DF0003688E /* SNSStringTool.h in Headers */,
 				18207A6622B77D170003688E /* NSString+SExtension.h in Headers */,
+				18207AC122B8BF6C0003688E /* PrefixHeader.pch in Headers */,
 				182F3CEF22B76AA0009023F2 /* STools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +420,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SDataTools/PrefixHeader.pch";
-				INFOPLIST_FILE = SDataTools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
+				INFOPLIST_FILE = Classes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,8 +445,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SDataTools/PrefixHeader.pch";
-				INFOPLIST_FILE = SDataTools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
+				INFOPLIST_FILE = Classes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
