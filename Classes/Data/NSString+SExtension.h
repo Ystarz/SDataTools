@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define NSStringFormat(fmt, ...)            \
+[NSString stringWithFormat:(fmt), ##__VA_ARGS__]
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString(SExtension)
