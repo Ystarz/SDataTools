@@ -7,6 +7,8 @@
 //
 
 #import "SDataConvertTool.h"
+#import <Foundation/Foundation.h>
+#import "NSString+SExtension.h"
 ////enum
 //typedef enum : NSUInteger {
 //    AVCapturePresetQualityHigh = 0,

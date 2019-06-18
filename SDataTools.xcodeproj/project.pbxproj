@@ -16,7 +16,6 @@
 		18207A6922B77D170003688E /* SFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5A22B77D170003688E /* SFileTool.m */; };
 		18207A6B22B77D170003688E /* SFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5C22B77D170003688E /* SFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18207A9622B787DF0003688E /* SNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A9522B785C00003688E /* SNSStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18207AC122B8BF6C0003688E /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 18207A6C22B77E040003688E /* PrefixHeader.pch */; };
 		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +40,6 @@
 		18207A5622B77D170003688E /* NSString+SExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SExtension.h"; sourceTree = "<group>"; };
 		18207A5A22B77D170003688E /* SFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFileTool.m; sourceTree = "<group>"; };
 		18207A5C22B77D170003688E /* SFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFileTool.h; sourceTree = "<group>"; };
-		18207A6C22B77E040003688E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		18207A9522B785C00003688E /* SNSStringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSStringTool.h; sourceTree = "<group>"; };
 		182F3CDE22B76AA0009023F2 /* SDataTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDataTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CE122B76AA0009023F2 /* STools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STools.h; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				182F3CE222B76AA0009023F2 /* Info.plist */,
-				18207A6C22B77E040003688E /* PrefixHeader.pch */,
 				18207A9322B7855A0003688E /* File */,
 				18207A9222B785480003688E /* Data */,
 				182F3CE122B76AA0009023F2 /* STools.h */,
@@ -144,7 +141,6 @@
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
 				18207A9622B787DF0003688E /* SNSStringTool.h in Headers */,
 				18207A6622B77D170003688E /* NSString+SExtension.h in Headers */,
-				18207AC122B8BF6C0003688E /* PrefixHeader.pch in Headers */,
 				182F3CEF22B76AA0009023F2 /* STools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,9 +416,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Classes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,9 +442,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Classes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
