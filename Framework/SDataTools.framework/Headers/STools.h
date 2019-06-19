@@ -15,8 +15,13 @@
 #import "STimeTool.h"
 #import "SDataConvertTool.h"
 
-
-
+//DataClasses
+#import "ArrayList.h"
+#import "ArrayQueue.h"
+#import "ArrayStack.h"
+#import "LinkedList.h"
+#import "LinkedListStack.h"
+#import "LoopQueue.h"
 
 //! Project version number for STools.
 FOUNDATION_EXPORT double SToolsVersionNumber;

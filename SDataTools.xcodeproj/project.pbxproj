@@ -19,6 +19,18 @@
 		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
+		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
+		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
+		18BCF00122B9D43800DE859A /* ArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF522B9D43800DE859A /* ArrayList.m */; };
+		18BCF00222B9D43800DE859A /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF622B9D43800DE859A /* LinkedList.h */; };
+		18BCF00322B9D43800DE859A /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF722B9D43800DE859A /* ArrayStack.m */; };
+		18BCF00422B9D43800DE859A /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF822B9D43800DE859A /* LinkedListStack.m */; };
+		18BCF00522B9D43800DE859A /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF922B9D43800DE859A /* LoopQueue.m */; };
+		18BCF00622B9D43800DE859A /* ArrayQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFA22B9D43800DE859A /* ArrayQueue.h */; };
+		18BCF00722B9D43800DE859A /* ArrayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFB22B9D43800DE859A /* ArrayList.h */; };
+		18BCF00822B9D43800DE859A /* ArrayStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFC22B9D43800DE859A /* ArrayStack.h */; };
+		18BCF00922B9D43800DE859A /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFFD22B9D43800DE859A /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CEC22B76AA0009023F2 /* SToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SToolsTests.m; sourceTree = "<group>"; };
 		182F3CEE22B76AA0009023F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
+		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
+		18BCEFF522B9D43800DE859A /* ArrayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayList.m; sourceTree = "<group>"; };
+		18BCEFF622B9D43800DE859A /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		18BCEFF722B9D43800DE859A /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
+		18BCEFF822B9D43800DE859A /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		18BCEFF922B9D43800DE859A /* LoopQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopQueue.m; sourceTree = "<group>"; };
+		18BCEFFA22B9D43800DE859A /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		18BCEFFB22B9D43800DE859A /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
+		18BCEFFC22B9D43800DE859A /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
+		18BCEFFD22B9D43800DE859A /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				182F3CE022B76AA0009023F2 /* Classes */,
-				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 				182F3CDF22B76AA0009023F2 /* Products */,
+				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +136,7 @@
 		182F3CE022B76AA0009023F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18BCEFF122B9D43800DE859A /* DataClasses */,
 				182F3CE222B76AA0009023F2 /* Info.plist */,
 				18207A9322B7855A0003688E /* File */,
 				18207A9222B785480003688E /* Data */,
@@ -129,6 +154,25 @@
 			path = SToolsTests;
 			sourceTree = "<group>";
 		};
+		18BCEFF122B9D43800DE859A /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18BCEFFB22B9D43800DE859A /* ArrayList.h */,
+				18BCEFFA22B9D43800DE859A /* ArrayQueue.h */,
+				18BCEFFC22B9D43800DE859A /* ArrayStack.h */,
+				18BCEFF622B9D43800DE859A /* LinkedList.h */,
+				18BCEFF322B9D43800DE859A /* LinkedListStack.h */,
+				18BCEFF222B9D43800DE859A /* LoopQueue.h */,
+				18BCEFF522B9D43800DE859A /* ArrayList.m */,
+				18BCEFF422B9D43800DE859A /* ArrayQueue.m */,
+				18BCEFF722B9D43800DE859A /* ArrayStack.m */,
+				18BCEFFD22B9D43800DE859A /* LinkedList.m */,
+				18BCEFF822B9D43800DE859A /* LinkedListStack.m */,
+				18BCEFF922B9D43800DE859A /* LoopQueue.m */,
+			);
+			path = DataClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -136,9 +180,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */,
 				18207A6B22B77D170003688E /* SFileTool.h in Headers */,
+				18BCF00622B9D43800DE859A /* ArrayQueue.h in Headers */,
+				18BCF00222B9D43800DE859A /* LinkedList.h in Headers */,
+				18BCF00722B9D43800DE859A /* ArrayList.h in Headers */,
 				18207A6422B77D170003688E /* STimeTool.h in Headers */,
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
+				18BCF00822B9D43800DE859A /* ArrayStack.h in Headers */,
+				18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */,
 				18207A9622B787DF0003688E /* SNSStringTool.h in Headers */,
 				18207A6622B77D170003688E /* NSString+SExtension.h in Headers */,
 				182F3CEF22B76AA0009023F2 /* STools.h in Headers */,
@@ -262,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCF00522B9D43800DE859A /* LoopQueue.m in Sources */,
 				18207A6922B77D170003688E /* SFileTool.m in Sources */,
 				18207A5D22B77D170003688E /* STimeTool.m in Sources */,
+				18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */,
+				18BCF00122B9D43800DE859A /* ArrayList.m in Sources */,
 				18207A5F22B77D170003688E /* SDataConvertTool.m in Sources */,
+				18BCF00422B9D43800DE859A /* LinkedListStack.m in Sources */,
+				18BCF00322B9D43800DE859A /* ArrayStack.m in Sources */,
+				18BCF00922B9D43800DE859A /* LinkedList.m in Sources */,
 				18207A6222B77D170003688E /* NSString+SExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
