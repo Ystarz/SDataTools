@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1819273022BA1FA4000DB8D2 /* SQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQueue.h; sourceTree = "<group>"; };
 		18207A4C22B77D170003688E /* STimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STimeTool.m; sourceTree = "<group>"; };
 		18207A4F22B77D170003688E /* SDataConvertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDataConvertTool.m; sourceTree = "<group>"; };
 		18207A5222B77D170003688E /* NSString+SExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SExtension.m"; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				18207A9322B7855A0003688E /* File */,
 				18207A9222B785480003688E /* Data */,
 				182F3CE122B76AA0009023F2 /* STools.h */,
+				1819273022BA1FA4000DB8D2 /* SQueue.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
