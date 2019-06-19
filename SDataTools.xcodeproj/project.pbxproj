@@ -19,6 +19,8 @@
 		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18AFFFDF22BA6AE10022312F /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AFFFDD22BA6AE10022312F /* Test.h */; };
+		18AFFFE022BA6AE10022312F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFFFDE22BA6AE10022312F /* Test.m */; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -60,6 +62,8 @@
 		182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CEC22B76AA0009023F2 /* SToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SToolsTests.m; sourceTree = "<group>"; };
 		182F3CEE22B76AA0009023F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AFFFDD22BA6AE10022312F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		18AFFFDE22BA6AE10022312F /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
 		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				18207A9222B785480003688E /* Data */,
 				182F3CE122B76AA0009023F2 /* STools.h */,
 				1819273022BA1FA4000DB8D2 /* SQueue.h */,
+				18AFFFDD22BA6AE10022312F /* Test.h */,
+				18AFFFDE22BA6AE10022312F /* Test.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AFFFDF22BA6AE10022312F /* Test.h in Headers */,
 				18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */,
 				18207A6B22B77D170003688E /* SFileTool.h in Headers */,
 				18BCF00622B9D43800DE859A /* ArrayQueue.h in Headers */,
@@ -315,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BCF00522B9D43800DE859A /* LoopQueue.m in Sources */,
+				18AFFFE022BA6AE10022312F /* Test.m in Sources */,
 				18207A6922B77D170003688E /* SFileTool.m in Sources */,
 				18207A5D22B77D170003688E /* STimeTool.m in Sources */,
 				18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */,

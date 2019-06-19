@@ -2,3 +2,5 @@
 \.DS_Store
 
 SDataToolsLib\.podspec
+
+Classes/Test\.m

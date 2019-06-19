@@ -23,6 +23,9 @@
 #import "LinkedListStack.h"
 #import "LoopQueue.h"
 
+//Other
+#import "SQueue.h"
+
 //! Project version number for STools.
 FOUNDATION_EXPORT double SToolsVersionNumber;
 
