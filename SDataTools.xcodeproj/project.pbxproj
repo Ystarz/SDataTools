@@ -49,6 +49,8 @@
 		18BCF00722B9D43800DE859A /* ArrayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFB22B9D43800DE859A /* ArrayList.h */; };
 		18BCF00822B9D43800DE859A /* ArrayStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFC22B9D43800DE859A /* ArrayStack.h */; };
 		18BCF00922B9D43800DE859A /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFFD22B9D43800DE859A /* LinkedList.m */; };
+		18EB05E222C3BD6800434EE0 /* SDataToolsLib_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB05E122C3BD6800434EE0 /* SDataToolsLib_MacTests.m */; };
+		18EB05E422C3BD6800434EE0 /* SDataToolsLib_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 182F3CDD22B76AA0009023F2;
 			remoteInfo = STools;
+		};
+		18EB05E522C3BD6800434EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182F3CD522B76AA0009023F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183E996D22C344EE0033956A;
+			remoteInfo = SDataToolsLib_Mac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,6 +106,9 @@
 		18BCEFFB22B9D43800DE859A /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
 		18BCEFFC22B9D43800DE859A /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
 		18BCEFFD22B9D43800DE859A /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		18EB05DF22C3BD6800434EE0 /* SDataToolsLib_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsLib_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB05E122C3BD6800434EE0 /* SDataToolsLib_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDataToolsLib_MacTests.m; sourceTree = "<group>"; };
+		18EB05E322C3BD6800434EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB05DC22C3BD6800434EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB05E422C3BD6800434EE0 /* SDataToolsLib_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +176,7 @@
 				183E996F22C344EE0033956A /* Mac */,
 				183E998B22C34A3D0033956A /* iOS */,
 				182F3CE022B76AA0009023F2 /* Classes */,
+				18EB05E022C3BD6800434EE0 /* SDataToolsLib_MacTests */,
 				182F3CDF22B76AA0009023F2 /* Products */,
 				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 			);
@@ -167,6 +188,7 @@
 				182F3CDE22B76AA0009023F2 /* SDataTools.framework */,
 				182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */,
 				183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */,
+				18EB05DF22C3BD6800434EE0 /* SDataToolsLib_MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +250,15 @@
 				18BCEFF922B9D43800DE859A /* LoopQueue.m */,
 			);
 			path = DataClasses;
+			sourceTree = "<group>";
+		};
+		18EB05E022C3BD6800434EE0 /* SDataToolsLib_MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EB05E122C3BD6800434EE0 /* SDataToolsLib_MacTests.m */,
+				18EB05E322C3BD6800434EE0 /* Info.plist */,
+			);
+			path = SDataToolsLib_MacTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +364,24 @@
 			productReference = 183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		18EB05DE22C3BD6800434EE0 /* SDataToolsLib_MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB05E922C3BD6800434EE0 /* Build configuration list for PBXNativeTarget "SDataToolsLib_MacTests" */;
+			buildPhases = (
+				18EB05DB22C3BD6800434EE0 /* Sources */,
+				18EB05DC22C3BD6800434EE0 /* Frameworks */,
+				18EB05DD22C3BD6800434EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EB05E622C3BD6800434EE0 /* PBXTargetDependency */,
+			);
+			name = SDataToolsLib_MacTests;
+			productName = SDataToolsLib_MacTests;
+			productReference = 18EB05DF22C3BD6800434EE0 /* SDataToolsLib_MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -349,6 +398,9 @@
 						CreatedOnToolsVersion = 10.2;
 					};
 					183E996D22C344EE0033956A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					18EB05DE22C3BD6800434EE0 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -368,6 +420,7 @@
 				182F3CDD22B76AA0009023F2 /* SDataTools */,
 				182F3CE622B76AA0009023F2 /* SDataToolsTests */,
 				183E996D22C344EE0033956A /* SDataToolsLib_Mac */,
+				18EB05DE22C3BD6800434EE0 /* SDataToolsLib_MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,6 +441,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		183E996C22C344EE0033956A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB05DD22C3BD6800434EE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,6 +511,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18EB05DB22C3BD6800434EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB05E222C3BD6800434EE0 /* SDataToolsLib_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -458,6 +526,11 @@
 			isa = PBXTargetDependency;
 			target = 182F3CDD22B76AA0009023F2 /* SDataTools */;
 			targetProxy = 182F3CE922B76AA0009023F2 /* PBXContainerItemProxy */;
+		};
+		18EB05E622C3BD6800434EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183E996D22C344EE0033956A /* SDataToolsLib_Mac */;
+			targetProxy = 18EB05E522C3BD6800434EE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -720,6 +793,46 @@
 			};
 			name = Release;
 		};
+		18EB05E722C3BD6800434EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H5442CQNN;
+				INFOPLIST_FILE = SDataToolsLib_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sss.SDataToolsLib-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18EB05E822C3BD6800434EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H5442CQNN;
+				INFOPLIST_FILE = SDataToolsLib_MacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sss.SDataToolsLib-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -755,6 +868,15 @@
 			buildConfigurations = (
 				183E997422C344EE0033956A /* Debug */,
 				183E997522C344EE0033956A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB05E922C3BD6800434EE0 /* Build configuration list for PBXNativeTarget "SDataToolsLib_MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB05E722C3BD6800434EE0 /* Debug */,
+				18EB05E822C3BD6800434EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
