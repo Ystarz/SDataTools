@@ -19,6 +19,20 @@
 		182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F3CDE22B76AA0009023F2 /* SDataTools.framework */; };
 		182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F3CEC22B76AA0009023F2 /* SToolsTests.m */; };
 		182F3CEF22B76AA0009023F2 /* STools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* STools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E996822C344B00033956A /* SQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1819273022BA1FA4000DB8D2 /* SQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E997222C344EE0033956A /* SDataToolsLib_Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E997022C344EE0033956A /* SDataToolsLib_Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E997622C345070033956A /* ArrayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFB22B9D43800DE859A /* ArrayList.h */; };
+		183E997722C345070033956A /* ArrayQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFA22B9D43800DE859A /* ArrayQueue.h */; };
+		183E997822C345070033956A /* ArrayStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFFC22B9D43800DE859A /* ArrayStack.h */; };
+		183E997922C345070033956A /* LinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF622B9D43800DE859A /* LinkedList.h */; };
+		183E997A22C345070033956A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
+		183E997B22C345070033956A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
+		183E997C22C3450C0033956A /* SFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5C22B77D170003688E /* SFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E997D22C345170033956A /* NSString+SExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5622B77D170003688E /* NSString+SExtension.h */; };
+		183E997E22C345170033956A /* SNSStringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A9522B785C00003688E /* SNSStringTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E997F22C345170033956A /* SDataConvertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5522B77D170003688E /* SDataConvertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E998022C345170033956A /* STimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5422B77D170003688E /* STimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E998222C345170033956A /* SQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1819273022BA1FA4000DB8D2 /* SQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -60,6 +74,9 @@
 		182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F3CEC22B76AA0009023F2 /* SToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SToolsTests.m; sourceTree = "<group>"; };
 		182F3CEE22B76AA0009023F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDataToolsLib_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183E997022C344EE0033956A /* SDataToolsLib_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDataToolsLib_Mac.h; sourceTree = "<group>"; };
+		183E997122C344EE0033956A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
 		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
@@ -87,6 +104,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				182F3CE822B76AA0009023F2 /* SDataTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E996B22C344EE0033956A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				182F3CE022B76AA0009023F2 /* Classes */,
+				183E996F22C344EE0033956A /* SDataToolsLib_Mac */,
 				182F3CDF22B76AA0009023F2 /* Products */,
 				182F3CEB22B76AA0009023F2 /* SToolsTests */,
 			);
@@ -130,6 +155,7 @@
 			children = (
 				182F3CDE22B76AA0009023F2 /* SDataTools.framework */,
 				182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */,
+				183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +180,15 @@
 				182F3CEE22B76AA0009023F2 /* Info.plist */,
 			);
 			path = SToolsTests;
+			sourceTree = "<group>";
+		};
+		183E996F22C344EE0033956A /* SDataToolsLib_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				183E997022C344EE0033956A /* SDataToolsLib_Mac.h */,
+				183E997122C344EE0033956A /* Info.plist */,
+			);
+			path = SDataToolsLib_Mac;
 			sourceTree = "<group>";
 		};
 		18BCEFF122B9D43800DE859A /* DataClasses */ = {
@@ -186,6 +221,7 @@
 				18207A6B22B77D170003688E /* SFileTool.h in Headers */,
 				18BCF00622B9D43800DE859A /* ArrayQueue.h in Headers */,
 				18BCF00222B9D43800DE859A /* LinkedList.h in Headers */,
+				183E996822C344B00033956A /* SQueue.h in Headers */,
 				18BCF00722B9D43800DE859A /* ArrayList.h in Headers */,
 				18207A6422B77D170003688E /* STimeTool.h in Headers */,
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
@@ -194,6 +230,26 @@
 				18207A9622B787DF0003688E /* SNSStringTool.h in Headers */,
 				18207A6622B77D170003688E /* NSString+SExtension.h in Headers */,
 				182F3CEF22B76AA0009023F2 /* STools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E996922C344EE0033956A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183E997222C344EE0033956A /* SDataToolsLib_Mac.h in Headers */,
+				183E997E22C345170033956A /* SNSStringTool.h in Headers */,
+				183E998022C345170033956A /* STimeTool.h in Headers */,
+				183E997F22C345170033956A /* SDataConvertTool.h in Headers */,
+				183E997C22C3450C0033956A /* SFileTool.h in Headers */,
+				183E998222C345170033956A /* SQueue.h in Headers */,
+				183E997D22C345170033956A /* NSString+SExtension.h in Headers */,
+				183E997622C345070033956A /* ArrayList.h in Headers */,
+				183E997722C345070033956A /* ArrayQueue.h in Headers */,
+				183E997822C345070033956A /* ArrayStack.h in Headers */,
+				183E997922C345070033956A /* LinkedList.h in Headers */,
+				183E997A22C345070033956A /* LinkedListStack.h in Headers */,
+				183E997B22C345070033956A /* LoopQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +293,24 @@
 			productReference = 182F3CE722B76AA0009023F2 /* SDataToolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		183E996D22C344EE0033956A /* SDataToolsLib_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183E997322C344EE0033956A /* Build configuration list for PBXNativeTarget "SDataToolsLib_Mac" */;
+			buildPhases = (
+				183E996922C344EE0033956A /* Headers */,
+				183E996A22C344EE0033956A /* Sources */,
+				183E996B22C344EE0033956A /* Frameworks */,
+				183E996C22C344EE0033956A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDataToolsLib_Mac;
+			productName = SDataToolsLib_Mac;
+			productReference = 183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +324,9 @@
 						CreatedOnToolsVersion = 10.2;
 					};
 					182F3CE622B76AA0009023F2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					183E996D22C344EE0033956A = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -268,6 +345,7 @@
 			targets = (
 				182F3CDD22B76AA0009023F2 /* SDataTools */,
 				182F3CE622B76AA0009023F2 /* SDataToolsTests */,
+				183E996D22C344EE0033956A /* SDataToolsLib_Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +359,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		182F3CE522B76AA0009023F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E996C22C344EE0033956A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,6 +417,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				182F3CED22B76AA0009023F2 /* SToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183E996A22C344EE0033956A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +642,60 @@
 			};
 			name = Release;
 		};
+		183E997422C344EE0033956A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6H5442CQNN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SDataToolsLib_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sss.SDataToolsLib-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		183E997522C344EE0033956A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6H5442CQNN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SDataToolsLib_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sss.SDataToolsLib-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,6 +722,15 @@
 			buildConfigurations = (
 				182F3CF622B76AA0009023F2 /* Debug */,
 				182F3CF722B76AA0009023F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183E997322C344EE0033956A /* Build configuration list for PBXNativeTarget "SDataToolsLib_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183E997422C344EE0033956A /* Debug */,
+				183E997522C344EE0033956A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
