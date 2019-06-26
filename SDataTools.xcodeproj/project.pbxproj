@@ -128,7 +128,6 @@
 		18207A9222B785480003688E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				183E998B22C34A3D0033956A /* iOS */,
 				183E998322C3498B0033956A /* NSTimer+ChatAdd.h */,
 				183E998622C3498B0033956A /* NSTimer+ChatAdd.m */,
 				18207A5622B77D170003688E /* NSString+SExtension.h */,
@@ -154,6 +153,8 @@
 		182F3CD422B76AA0009023F2 = {
 			isa = PBXGroup;
 			children = (
+				183E996F22C344EE0033956A /* Mac */,
+				183E998B22C34A3D0033956A /* iOS */,
 				182F3CE022B76AA0009023F2 /* Classes */,
 				182F3CDF22B76AA0009023F2 /* Products */,
 				182F3CEB22B76AA0009023F2 /* SToolsTests */,
@@ -173,12 +174,9 @@
 		182F3CE022B76AA0009023F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				183E996F22C344EE0033956A /* SDataToolsLib_Mac */,
 				18BCEFF122B9D43800DE859A /* DataClasses */,
-				182F3CE222B76AA0009023F2 /* Info.plist */,
 				18207A9322B7855A0003688E /* File */,
 				18207A9222B785480003688E /* Data */,
-				182F3CE122B76AA0009023F2 /* STools.h */,
 				1819273022BA1FA4000DB8D2 /* SQueue.h */,
 			);
 			path = Classes;
@@ -193,18 +191,20 @@
 			path = SToolsTests;
 			sourceTree = "<group>";
 		};
-		183E996F22C344EE0033956A /* SDataToolsLib_Mac */ = {
+		183E996F22C344EE0033956A /* Mac */ = {
 			isa = PBXGroup;
 			children = (
 				183E997022C344EE0033956A /* SDataToolsLib_Mac.h */,
 				183E997122C344EE0033956A /* Info.plist */,
 			);
-			path = SDataToolsLib_Mac;
+			path = Mac;
 			sourceTree = "<group>";
 		};
 		183E998B22C34A3D0033956A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				182F3CE122B76AA0009023F2 /* STools.h */,
+				182F3CE222B76AA0009023F2 /* Info.plist */,
 				183E998522C3498B0033956A /* NSObject+ChatAdd.h */,
 				183E998422C3498B0033956A /* NSObject+ChatAdd.m */,
 			);
@@ -591,7 +591,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = Classes/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,7 +617,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = Classes/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -678,7 +678,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Classes/SDataToolsLib_Mac/Info.plist;
+				INFOPLIST_FILE = Mac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -705,7 +705,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Classes/SDataToolsLib_Mac/Info.plist;
+				INFOPLIST_FILE = Mac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
