@@ -33,6 +33,10 @@
 		183E997F22C345170033956A /* SDataConvertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5522B77D170003688E /* SDataConvertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183E998022C345170033956A /* STimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18207A5422B77D170003688E /* STimeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183E998222C345170033956A /* SQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1819273022BA1FA4000DB8D2 /* SQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183E998722C3498B0033956A /* NSTimer+ChatAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E998322C3498B0033956A /* NSTimer+ChatAdd.h */; };
+		183E998822C3498B0033956A /* NSObject+ChatAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E998422C3498B0033956A /* NSObject+ChatAdd.m */; };
+		183E998922C3498B0033956A /* NSObject+ChatAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E998522C3498B0033956A /* NSObject+ChatAdd.h */; };
+		183E998A22C3498B0033956A /* NSTimer+ChatAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E998622C3498B0033956A /* NSTimer+ChatAdd.m */; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -77,6 +81,10 @@
 		183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDataToolsLib_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		183E997022C344EE0033956A /* SDataToolsLib_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDataToolsLib_Mac.h; sourceTree = "<group>"; };
 		183E997122C344EE0033956A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183E998322C3498B0033956A /* NSTimer+ChatAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+ChatAdd.h"; sourceTree = "<group>"; };
+		183E998422C3498B0033956A /* NSObject+ChatAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChatAdd.m"; sourceTree = "<group>"; };
+		183E998522C3498B0033956A /* NSObject+ChatAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChatAdd.h"; sourceTree = "<group>"; };
+		183E998622C3498B0033956A /* NSTimer+ChatAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ChatAdd.m"; sourceTree = "<group>"; };
 		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
 		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
@@ -120,6 +128,9 @@
 		18207A9222B785480003688E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				183E998B22C34A3D0033956A /* iOS */,
+				183E998322C3498B0033956A /* NSTimer+ChatAdd.h */,
+				183E998622C3498B0033956A /* NSTimer+ChatAdd.m */,
 				18207A5622B77D170003688E /* NSString+SExtension.h */,
 				18207A5222B77D170003688E /* NSString+SExtension.m */,
 				18207A9522B785C00003688E /* SNSStringTool.h */,
@@ -191,6 +202,15 @@
 			path = SDataToolsLib_Mac;
 			sourceTree = "<group>";
 		};
+		183E998B22C34A3D0033956A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				183E998522C3498B0033956A /* NSObject+ChatAdd.h */,
+				183E998422C3498B0033956A /* NSObject+ChatAdd.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		18BCEFF122B9D43800DE859A /* DataClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,10 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */,
+				183E998722C3498B0033956A /* NSTimer+ChatAdd.h in Headers */,
 				18207A6B22B77D170003688E /* SFileTool.h in Headers */,
 				18BCF00622B9D43800DE859A /* ArrayQueue.h in Headers */,
 				18BCF00222B9D43800DE859A /* LinkedList.h in Headers */,
 				183E996822C344B00033956A /* SQueue.h in Headers */,
+				183E998922C3498B0033956A /* NSObject+ChatAdd.h in Headers */,
 				18BCF00722B9D43800DE859A /* ArrayList.h in Headers */,
 				18207A6422B77D170003688E /* STimeTool.h in Headers */,
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
@@ -401,9 +423,11 @@
 			files = (
 				18BCF00522B9D43800DE859A /* LoopQueue.m in Sources */,
 				18207A6922B77D170003688E /* SFileTool.m in Sources */,
+				183E998A22C3498B0033956A /* NSTimer+ChatAdd.m in Sources */,
 				18207A5D22B77D170003688E /* STimeTool.m in Sources */,
 				18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */,
 				18BCF00122B9D43800DE859A /* ArrayList.m in Sources */,
+				183E998822C3498B0033956A /* NSObject+ChatAdd.m in Sources */,
 				18207A5F22B77D170003688E /* SDataConvertTool.m in Sources */,
 				18BCF00422B9D43800DE859A /* LinkedListStack.m in Sources */,
 				18BCF00322B9D43800DE859A /* ArrayStack.m in Sources */,
