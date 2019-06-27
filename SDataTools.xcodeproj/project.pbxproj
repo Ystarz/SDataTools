@@ -52,6 +52,8 @@
 		18EB05E422C3BD6800434EE0 /* SDataToolsLib_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183E996E22C344EE0033956A /* SDataToolsLib_Mac.framework */; };
 		18EB068C22C45D0500434EE0 /* NSTimer+ChatAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E998322C3498B0033956A /* NSTimer+ChatAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* SDataTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		18EB05DF22C3BD6800434EE0 /* SDataToolsLib_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDataToolsLib_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EB05E122C3BD6800434EE0 /* SDataToolsLib_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDataToolsLib_MacTests.m; sourceTree = "<group>"; };
 		18EB05E322C3BD6800434EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+TRTaskAdditions_termination.h"; sourceTree = "<group>"; };
+		18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSTask+TRTaskAdditions_termination.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,8 @@
 		183E996F22C344EE0033956A /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */,
+				18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */,
 				183E997122C344EE0033956A /* Info.plist */,
 			);
 			path = Mac;
@@ -291,6 +297,7 @@
 			files = (
 				18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */,
 				183E997E22C345170033956A /* SNSStringTool.h in Headers */,
+				18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */,
 				183E998022C345170033956A /* STimeTool.h in Headers */,
 				18EB068C22C45D0500434EE0 /* NSTimer+ChatAdd.h in Headers */,
 				183E997F22C345170033956A /* SDataConvertTool.h in Headers */,
@@ -508,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
