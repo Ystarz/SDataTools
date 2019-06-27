@@ -36,6 +36,17 @@
 		183E998822C3498B0033956A /* NSObject+ChatAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E998422C3498B0033956A /* NSObject+ChatAdd.m */; };
 		183E998922C3498B0033956A /* NSObject+ChatAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E998522C3498B0033956A /* NSObject+ChatAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183E998A22C3498B0033956A /* NSTimer+ChatAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E998622C3498B0033956A /* NSTimer+ChatAdd.m */; };
+		18A4147122C4BE2A00A1D744 /* ArrayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF522B9D43800DE859A /* ArrayList.m */; };
+		18A4147222C4BE2A00A1D744 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
+		18A4147322C4BE2A00A1D744 /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF722B9D43800DE859A /* ArrayStack.m */; };
+		18A4147422C4BE2A00A1D744 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFFD22B9D43800DE859A /* LinkedList.m */; };
+		18A4147522C4BE2A00A1D744 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF822B9D43800DE859A /* LinkedListStack.m */; };
+		18A4147622C4BE2A00A1D744 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF922B9D43800DE859A /* LoopQueue.m */; };
+		18A4147722C4BE2C00A1D744 /* SFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5A22B77D170003688E /* SFileTool.m */; };
+		18A4147822C4BE2F00A1D744 /* NSTimer+ChatAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E998622C3498B0033956A /* NSTimer+ChatAdd.m */; };
+		18A4147922C4BE2F00A1D744 /* NSString+SExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5222B77D170003688E /* NSString+SExtension.m */; };
+		18A4147A22C4BE2F00A1D744 /* SDataConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4F22B77D170003688E /* SDataConvertTool.m */; };
+		18A4147B22C4BE2F00A1D744 /* STimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4C22B77D170003688E /* STimeTool.m */; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -515,7 +526,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A4147422C4BE2A00A1D744 /* LinkedList.m in Sources */,
+				18A4147722C4BE2C00A1D744 /* SFileTool.m in Sources */,
+				18A4147122C4BE2A00A1D744 /* ArrayList.m in Sources */,
 				18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */,
+				18A4147822C4BE2F00A1D744 /* NSTimer+ChatAdd.m in Sources */,
+				18A4147A22C4BE2F00A1D744 /* SDataConvertTool.m in Sources */,
+				18A4147322C4BE2A00A1D744 /* ArrayStack.m in Sources */,
+				18A4147622C4BE2A00A1D744 /* LoopQueue.m in Sources */,
+				18A4147B22C4BE2F00A1D744 /* STimeTool.m in Sources */,
+				18A4147222C4BE2A00A1D744 /* ArrayQueue.m in Sources */,
+				18A4147522C4BE2A00A1D744 /* LinkedListStack.m in Sources */,
+				18A4147922C4BE2F00A1D744 /* NSString+SExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
