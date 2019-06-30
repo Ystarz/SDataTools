@@ -47,6 +47,52 @@
 		18A4147922C4BE2F00A1D744 /* NSString+SExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A5222B77D170003688E /* NSString+SExtension.m */; };
 		18A4147A22C4BE2F00A1D744 /* SDataConvertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4F22B77D170003688E /* SDataConvertTool.m */; };
 		18A4147B22C4BE2F00A1D744 /* STimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18207A4C22B77D170003688E /* STimeTool.m */; };
+		18A4148122C760E400A1D744 /* BaseProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4147E22C760E000A1D744 /* BaseProccessTool.m */; };
+		18A4148222C7623F00A1D744 /* BaseProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4147D22C760E000A1D744 /* BaseProccessTool.h */; };
+		18A4148F22C7795F00A1D744 /* BaseProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4148322C766A600A1D744 /* BaseProccessResultHandler.h */; };
+		18A4149022C7795F00A1D744 /* BaseProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4148422C766A600A1D744 /* BaseProccessResultHandler.m */; };
+		18A4149122C7796600A1D744 /* BaseProccessResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4148922C775C000A1D744 /* BaseProccessResult.h */; };
+		18A4149222C7796600A1D744 /* BaseProccessResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4148A22C775C000A1D744 /* BaseProccessResult.m */; };
+		18A4149822C779CE00A1D744 /* ShellProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4149522C779CC00A1D744 /* ShellProccessTool.m */; };
+		18A4149F22C77C4A00A1D744 /* ExpectProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4149D22C77C4A00A1D744 /* ExpectProccessTool.h */; };
+		18A414A022C77C4A00A1D744 /* ExpectProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4149E22C77C4A00A1D744 /* ExpectProccessTool.m */; };
+		18A414A622C77C5000A1D744 /* ShellProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4149422C779CC00A1D744 /* ShellProccessTool.h */; };
+		18A414A722C77C5000A1D744 /* RubyProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4149922C77BAC00A1D744 /* RubyProccessTool.h */; };
+		18A414A822C77C5000A1D744 /* RubyProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4149A22C77BAC00A1D744 /* RubyProccessTool.m */; };
+		18A414AF22C8522C00A1D744 /* ShellProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414AD22C8522C00A1D744 /* ShellProccessResultHandler.h */; };
+		18A414B022C8522C00A1D744 /* ShellProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414AE22C8522C00A1D744 /* ShellProccessResultHandler.m */; };
+		18A414B822C8559200A1D744 /* FastlaneProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414B622C8559200A1D744 /* FastlaneProccessResultHandler.h */; };
+		18A414B922C8559200A1D744 /* FastlaneProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414B722C8559200A1D744 /* FastlaneProccessResultHandler.m */; };
+		18A414BC22C8561100A1D744 /* ProccessResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414BA22C8561100A1D744 /* ProccessResult.h */; };
+		18A414BD22C8561100A1D744 /* ProccessResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414BB22C8561100A1D744 /* ProccessResult.m */; };
+		18A414D522C85FDE00A1D744 /* CreateAppIdProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414D322C85FDE00A1D744 /* CreateAppIdProccessTool.h */; };
+		18A414D622C85FDE00A1D744 /* CreateAppIdProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414D422C85FDE00A1D744 /* CreateAppIdProccessTool.m */; };
+		18A414DA22C8608800A1D744 /* FastlaneProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414D822C8608800A1D744 /* FastlaneProccessTool.h */; };
+		18A414DB22C8608800A1D744 /* FastlaneProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414D922C8608800A1D744 /* FastlaneProccessTool.m */; };
+		18A414DE22C8639000A1D744 /* CreateAppIdProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414DC22C8639000A1D744 /* CreateAppIdProccessResultHandler.h */; };
+		18A414DF22C8639000A1D744 /* CreateAppIdProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414DD22C8639000A1D744 /* CreateAppIdProccessResultHandler.m */; };
+		18A414E222C8654300A1D744 /* CacheLocalDeviceProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414E022C8654300A1D744 /* CacheLocalDeviceProccessTool.h */; };
+		18A414E322C8654300A1D744 /* CacheLocalDeviceProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414E122C8654300A1D744 /* CacheLocalDeviceProccessTool.m */; };
+		18A414E622C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414E422C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.h */; };
+		18A414E722C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414E522C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.m */; };
+		18A414EA22C8928300A1D744 /* UploadLocalDeviceProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414E822C8928300A1D744 /* UploadLocalDeviceProccessTool.h */; };
+		18A414EB22C8928300A1D744 /* UploadLocalDeviceProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414E922C8928300A1D744 /* UploadLocalDeviceProccessTool.m */; };
+		18A414EE22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414EC22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.h */; };
+		18A414EF22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414ED22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m */; };
+		18A414F322C89B3C00A1D744 /* UpdateProfileProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414F122C89B3C00A1D744 /* UpdateProfileProccessTool.h */; };
+		18A414F422C89B3C00A1D744 /* UpdateProfileProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414F222C89B3C00A1D744 /* UpdateProfileProccessTool.m */; };
+		18A414F722C89C2100A1D744 /* UpdateProfileProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414F522C89C2100A1D744 /* UpdateProfileProccessResultHandler.h */; };
+		18A414F822C89C2100A1D744 /* UpdateProfileProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414F622C89C2100A1D744 /* UpdateProfileProccessResultHandler.m */; };
+		18A414FB22C89D1E00A1D744 /* ResignAppProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414F922C89D1E00A1D744 /* ResignAppProccessTool.h */; };
+		18A414FC22C89D1E00A1D744 /* ResignAppProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414FA22C89D1E00A1D744 /* ResignAppProccessTool.m */; };
+		18A414FF22C89DB400A1D744 /* ResignAppProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414FD22C89DB400A1D744 /* ResignAppProccessResultHandler.h */; };
+		18A4150022C89DB400A1D744 /* ResignAppProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A414FE22C89DB400A1D744 /* ResignAppProccessResultHandler.m */; };
+		18A4150322C8A0B500A1D744 /* CopyThroughOSSProccessTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4150122C8A0B500A1D744 /* CopyThroughOSSProccessTool.h */; };
+		18A4150422C8A0B500A1D744 /* CopyThroughOSSProccessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4150222C8A0B500A1D744 /* CopyThroughOSSProccessTool.m */; };
+		18A4150722C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4150522C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h */; };
+		18A4150822C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4150622C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m */; };
+		18A4150C22C8A2C700A1D744 /* SOSSDataBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4150A22C8A2C700A1D744 /* SOSSDataBean.m */; };
+		18A4150D22C8A2C700A1D744 /* SOSSDataBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4150B22C8A2C700A1D744 /* SOSSDataBean.h */; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -107,6 +153,57 @@
 		183E998422C3498B0033956A /* NSObject+ChatAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChatAdd.m"; sourceTree = "<group>"; };
 		183E998522C3498B0033956A /* NSObject+ChatAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChatAdd.h"; sourceTree = "<group>"; };
 		183E998622C3498B0033956A /* NSTimer+ChatAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+ChatAdd.m"; sourceTree = "<group>"; };
+		18A4147D22C760E000A1D744 /* BaseProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseProccessTool.h; sourceTree = "<group>"; };
+		18A4147E22C760E000A1D744 /* BaseProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProccessTool.m; sourceTree = "<group>"; };
+		18A4148322C766A600A1D744 /* BaseProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseProccessResultHandler.h; sourceTree = "<group>"; };
+		18A4148422C766A600A1D744 /* BaseProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProccessResultHandler.m; sourceTree = "<group>"; };
+		18A4148922C775C000A1D744 /* BaseProccessResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseProccessResult.h; sourceTree = "<group>"; };
+		18A4148A22C775C000A1D744 /* BaseProccessResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProccessResult.m; sourceTree = "<group>"; };
+		18A4149422C779CC00A1D744 /* ShellProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellProccessTool.h; sourceTree = "<group>"; };
+		18A4149522C779CC00A1D744 /* ShellProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellProccessTool.m; sourceTree = "<group>"; };
+		18A4149922C77BAC00A1D744 /* RubyProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyProccessTool.h; sourceTree = "<group>"; };
+		18A4149A22C77BAC00A1D744 /* RubyProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyProccessTool.m; sourceTree = "<group>"; };
+		18A4149D22C77C4A00A1D744 /* ExpectProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpectProccessTool.h; sourceTree = "<group>"; };
+		18A4149E22C77C4A00A1D744 /* ExpectProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpectProccessTool.m; sourceTree = "<group>"; };
+		18A414AD22C8522C00A1D744 /* ShellProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414AE22C8522C00A1D744 /* ShellProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414B522C8540500A1D744 /* SResultEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SResultEnums.h; sourceTree = "<group>"; };
+		18A414B622C8559200A1D744 /* FastlaneProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastlaneProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414B722C8559200A1D744 /* FastlaneProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastlaneProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414BA22C8561100A1D744 /* ProccessResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProccessResult.h; sourceTree = "<group>"; };
+		18A414BB22C8561100A1D744 /* ProccessResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProccessResult.m; sourceTree = "<group>"; };
+		18A414D322C85FDE00A1D744 /* CreateAppIdProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAppIdProccessTool.h; sourceTree = "<group>"; };
+		18A414D422C85FDE00A1D744 /* CreateAppIdProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateAppIdProccessTool.m; sourceTree = "<group>"; };
+		18A414D722C8604A00A1D744 /* FastlaneConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastlaneConfig.h; sourceTree = "<group>"; };
+		18A414D822C8608800A1D744 /* FastlaneProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastlaneProccessTool.h; sourceTree = "<group>"; };
+		18A414D922C8608800A1D744 /* FastlaneProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastlaneProccessTool.m; sourceTree = "<group>"; };
+		18A414DC22C8639000A1D744 /* CreateAppIdProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAppIdProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414DD22C8639000A1D744 /* CreateAppIdProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateAppIdProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414E022C8654300A1D744 /* CacheLocalDeviceProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheLocalDeviceProccessTool.h; sourceTree = "<group>"; };
+		18A414E122C8654300A1D744 /* CacheLocalDeviceProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheLocalDeviceProccessTool.m; sourceTree = "<group>"; };
+		18A414E422C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheLocalDeviceProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414E522C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheLocalDeviceProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414E822C8928300A1D744 /* UploadLocalDeviceProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadLocalDeviceProccessTool.h; sourceTree = "<group>"; };
+		18A414E922C8928300A1D744 /* UploadLocalDeviceProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadLocalDeviceProccessTool.m; sourceTree = "<group>"; };
+		18A414EC22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadLocalDeviceProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414ED22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadLocalDeviceProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414F122C89B3C00A1D744 /* UpdateProfileProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateProfileProccessTool.h; sourceTree = "<group>"; };
+		18A414F222C89B3C00A1D744 /* UpdateProfileProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateProfileProccessTool.m; sourceTree = "<group>"; };
+		18A414F522C89C2100A1D744 /* UpdateProfileProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateProfileProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414F622C89C2100A1D744 /* UpdateProfileProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateProfileProccessResultHandler.m; sourceTree = "<group>"; };
+		18A414F922C89D1E00A1D744 /* ResignAppProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResignAppProccessTool.h; sourceTree = "<group>"; };
+		18A414FA22C89D1E00A1D744 /* ResignAppProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResignAppProccessTool.m; sourceTree = "<group>"; };
+		18A414FD22C89DB400A1D744 /* ResignAppProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResignAppProccessResultHandler.h; sourceTree = "<group>"; };
+		18A414FE22C89DB400A1D744 /* ResignAppProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResignAppProccessResultHandler.m; sourceTree = "<group>"; };
+		18A4150122C8A0B500A1D744 /* CopyThroughOSSProccessTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyThroughOSSProccessTool.h; sourceTree = "<group>"; };
+		18A4150222C8A0B500A1D744 /* CopyThroughOSSProccessTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyThroughOSSProccessTool.m; sourceTree = "<group>"; };
+		18A4150522C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyThroughOSSProccessResultHandler.h; sourceTree = "<group>"; };
+		18A4150622C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyThroughOSSProccessResultHandler.m; sourceTree = "<group>"; };
+		18A4150A22C8A2C700A1D744 /* SOSSDataBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSSDataBean.m; sourceTree = "<group>"; };
+		18A4150B22C8A2C700A1D744 /* SOSSDataBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSSDataBean.h; sourceTree = "<group>"; };
+		18A4151222C8AAE700A1D744 /* SProccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SProccess.h; sourceTree = "<group>"; };
+		18A4151322C8AECC00A1D744 /* SProccessTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SProccessTools.h; sourceTree = "<group>"; };
+		18A4151822C8B14B00A1D744 /* ProccessResultHandlers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProccessResultHandlers.h; sourceTree = "<group>"; };
 		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
 		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
@@ -232,8 +329,7 @@
 		183E996F22C344EE0033956A /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */,
-				18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */,
+				18A4147C22C760AF00A1D744 /* Proccess */,
 				183E997122C344EE0033956A /* Info.plist */,
 			);
 			path = Mac;
@@ -247,6 +343,98 @@
 				183E998422C3498B0033956A /* NSObject+ChatAdd.m */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		18A4147C22C760AF00A1D744 /* Proccess */ = {
+			isa = PBXGroup;
+			children = (
+				18A4150922C8A24C00A1D744 /* Bean */,
+				18A4149322C7799200A1D744 /* Tool */,
+				18A4148822C7752800A1D744 /* Handler */,
+				18A4148722C7751300A1D744 /* Model */,
+				18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */,
+				18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */,
+				18A4151222C8AAE700A1D744 /* SProccess.h */,
+			);
+			path = Proccess;
+			sourceTree = "<group>";
+		};
+		18A4148722C7751300A1D744 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A4148922C775C000A1D744 /* BaseProccessResult.h */,
+				18A4148A22C775C000A1D744 /* BaseProccessResult.m */,
+				18A414B522C8540500A1D744 /* SResultEnums.h */,
+				18A414BA22C8561100A1D744 /* ProccessResult.h */,
+				18A414BB22C8561100A1D744 /* ProccessResult.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A4148822C7752800A1D744 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				18A4148322C766A600A1D744 /* BaseProccessResultHandler.h */,
+				18A4148422C766A600A1D744 /* BaseProccessResultHandler.m */,
+				18A414AD22C8522C00A1D744 /* ShellProccessResultHandler.h */,
+				18A414AE22C8522C00A1D744 /* ShellProccessResultHandler.m */,
+				18A414B622C8559200A1D744 /* FastlaneProccessResultHandler.h */,
+				18A414B722C8559200A1D744 /* FastlaneProccessResultHandler.m */,
+				18A414DC22C8639000A1D744 /* CreateAppIdProccessResultHandler.h */,
+				18A414DD22C8639000A1D744 /* CreateAppIdProccessResultHandler.m */,
+				18A414E422C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.h */,
+				18A414E522C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.m */,
+				18A414EC22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.h */,
+				18A414ED22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m */,
+				18A414F522C89C2100A1D744 /* UpdateProfileProccessResultHandler.h */,
+				18A414F622C89C2100A1D744 /* UpdateProfileProccessResultHandler.m */,
+				18A414FD22C89DB400A1D744 /* ResignAppProccessResultHandler.h */,
+				18A414FE22C89DB400A1D744 /* ResignAppProccessResultHandler.m */,
+				18A4150522C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h */,
+				18A4150622C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m */,
+				18A4151822C8B14B00A1D744 /* ProccessResultHandlers.h */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		18A4149322C7799200A1D744 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18A4147D22C760E000A1D744 /* BaseProccessTool.h */,
+				18A4147E22C760E000A1D744 /* BaseProccessTool.m */,
+				18A4149422C779CC00A1D744 /* ShellProccessTool.h */,
+				18A4149522C779CC00A1D744 /* ShellProccessTool.m */,
+				18A4149922C77BAC00A1D744 /* RubyProccessTool.h */,
+				18A4149A22C77BAC00A1D744 /* RubyProccessTool.m */,
+				18A4149D22C77C4A00A1D744 /* ExpectProccessTool.h */,
+				18A4149E22C77C4A00A1D744 /* ExpectProccessTool.m */,
+				18A414D322C85FDE00A1D744 /* CreateAppIdProccessTool.h */,
+				18A414D422C85FDE00A1D744 /* CreateAppIdProccessTool.m */,
+				18A414D722C8604A00A1D744 /* FastlaneConfig.h */,
+				18A414D822C8608800A1D744 /* FastlaneProccessTool.h */,
+				18A414D922C8608800A1D744 /* FastlaneProccessTool.m */,
+				18A414E022C8654300A1D744 /* CacheLocalDeviceProccessTool.h */,
+				18A414E122C8654300A1D744 /* CacheLocalDeviceProccessTool.m */,
+				18A414E822C8928300A1D744 /* UploadLocalDeviceProccessTool.h */,
+				18A414E922C8928300A1D744 /* UploadLocalDeviceProccessTool.m */,
+				18A414F122C89B3C00A1D744 /* UpdateProfileProccessTool.h */,
+				18A414F222C89B3C00A1D744 /* UpdateProfileProccessTool.m */,
+				18A414F922C89D1E00A1D744 /* ResignAppProccessTool.h */,
+				18A414FA22C89D1E00A1D744 /* ResignAppProccessTool.m */,
+				18A4150122C8A0B500A1D744 /* CopyThroughOSSProccessTool.h */,
+				18A4150222C8A0B500A1D744 /* CopyThroughOSSProccessTool.m */,
+				18A4151322C8AECC00A1D744 /* SProccessTools.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18A4150922C8A24C00A1D744 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				18A4150B22C8A2C700A1D744 /* SOSSDataBean.h */,
+				18A4150A22C8A2C700A1D744 /* SOSSDataBean.m */,
+			);
+			path = Bean;
 			sourceTree = "<group>";
 		};
 		18BCEFF122B9D43800DE859A /* DataClasses */ = {
@@ -306,20 +494,43 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A414FB22C89D1E00A1D744 /* ResignAppProccessTool.h in Headers */,
 				18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */,
 				183E997E22C345170033956A /* SNSStringTool.h in Headers */,
+				18A414DE22C8639000A1D744 /* CreateAppIdProccessResultHandler.h in Headers */,
+				18A414E222C8654300A1D744 /* CacheLocalDeviceProccessTool.h in Headers */,
 				18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */,
+				18A414F322C89B3C00A1D744 /* UpdateProfileProccessTool.h in Headers */,
+				18A414FF22C89DB400A1D744 /* ResignAppProccessResultHandler.h in Headers */,
+				18A4148222C7623F00A1D744 /* BaseProccessTool.h in Headers */,
+				18A414B822C8559200A1D744 /* FastlaneProccessResultHandler.h in Headers */,
 				183E998022C345170033956A /* STimeTool.h in Headers */,
+				18A4150D22C8A2C700A1D744 /* SOSSDataBean.h in Headers */,
 				18EB068C22C45D0500434EE0 /* NSTimer+ChatAdd.h in Headers */,
+				18A414BC22C8561100A1D744 /* ProccessResult.h in Headers */,
 				183E997F22C345170033956A /* SDataConvertTool.h in Headers */,
 				183E997C22C3450C0033956A /* SFileTool.h in Headers */,
+				18A414D522C85FDE00A1D744 /* CreateAppIdProccessTool.h in Headers */,
 				183E998222C345170033956A /* SQueue.h in Headers */,
+				18A414AF22C8522C00A1D744 /* ShellProccessResultHandler.h in Headers */,
+				18A414EA22C8928300A1D744 /* UploadLocalDeviceProccessTool.h in Headers */,
+				18A4150722C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h in Headers */,
+				18A4150322C8A0B500A1D744 /* CopyThroughOSSProccessTool.h in Headers */,
 				183E997D22C345170033956A /* NSString+SExtension.h in Headers */,
 				183E997622C345070033956A /* ArrayList.h in Headers */,
+				18A4149F22C77C4A00A1D744 /* ExpectProccessTool.h in Headers */,
+				18A414A722C77C5000A1D744 /* RubyProccessTool.h in Headers */,
 				183E997722C345070033956A /* ArrayQueue.h in Headers */,
 				183E997822C345070033956A /* ArrayStack.h in Headers */,
 				183E997922C345070033956A /* LinkedList.h in Headers */,
+				18A414E622C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.h in Headers */,
+				18A414F722C89C2100A1D744 /* UpdateProfileProccessResultHandler.h in Headers */,
+				18A414EE22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.h in Headers */,
+				18A4148F22C7795F00A1D744 /* BaseProccessResultHandler.h in Headers */,
+				18A414DA22C8608800A1D744 /* FastlaneProccessTool.h in Headers */,
 				183E997A22C345070033956A /* LinkedListStack.h in Headers */,
+				18A414A622C77C5000A1D744 /* ShellProccessTool.h in Headers */,
+				18A4149122C7796600A1D744 /* BaseProccessResult.h in Headers */,
 				183E997B22C345070033956A /* LoopQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,18 +737,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A414B922C8559200A1D744 /* FastlaneProccessResultHandler.m in Sources */,
 				18A4147422C4BE2A00A1D744 /* LinkedList.m in Sources */,
+				18A414FC22C89D1E00A1D744 /* ResignAppProccessTool.m in Sources */,
+				18A414F822C89C2100A1D744 /* UpdateProfileProccessResultHandler.m in Sources */,
+				18A414DB22C8608800A1D744 /* FastlaneProccessTool.m in Sources */,
+				18A4150422C8A0B500A1D744 /* CopyThroughOSSProccessTool.m in Sources */,
 				18A4147722C4BE2C00A1D744 /* SFileTool.m in Sources */,
+				18A4150022C89DB400A1D744 /* ResignAppProccessResultHandler.m in Sources */,
+				18A4149222C7796600A1D744 /* BaseProccessResult.m in Sources */,
 				18A4147122C4BE2A00A1D744 /* ArrayList.m in Sources */,
+				18A414A022C77C4A00A1D744 /* ExpectProccessTool.m in Sources */,
 				18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */,
+				18A414B022C8522C00A1D744 /* ShellProccessResultHandler.m in Sources */,
 				18A4147822C4BE2F00A1D744 /* NSTimer+ChatAdd.m in Sources */,
+				18A4150C22C8A2C700A1D744 /* SOSSDataBean.m in Sources */,
+				18A4149822C779CE00A1D744 /* ShellProccessTool.m in Sources */,
+				18A414DF22C8639000A1D744 /* CreateAppIdProccessResultHandler.m in Sources */,
+				18A414EB22C8928300A1D744 /* UploadLocalDeviceProccessTool.m in Sources */,
+				18A414F422C89B3C00A1D744 /* UpdateProfileProccessTool.m in Sources */,
+				18A4150822C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m in Sources */,
 				18A4147A22C4BE2F00A1D744 /* SDataConvertTool.m in Sources */,
 				18A4147322C4BE2A00A1D744 /* ArrayStack.m in Sources */,
 				18A4147622C4BE2A00A1D744 /* LoopQueue.m in Sources */,
 				18A4147B22C4BE2F00A1D744 /* STimeTool.m in Sources */,
 				18A4147222C4BE2A00A1D744 /* ArrayQueue.m in Sources */,
+				18A414A822C77C5000A1D744 /* RubyProccessTool.m in Sources */,
+				18A414E322C8654300A1D744 /* CacheLocalDeviceProccessTool.m in Sources */,
 				18A4147522C4BE2A00A1D744 /* LinkedListStack.m in Sources */,
 				18A4147922C4BE2F00A1D744 /* NSString+SExtension.m in Sources */,
+				18A414EF22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m in Sources */,
+				18A4149022C7795F00A1D744 /* BaseProccessResultHandler.m in Sources */,
+				18A4148122C760E400A1D744 /* BaseProccessTool.m in Sources */,
+				18A414BD22C8561100A1D744 /* ProccessResult.m in Sources */,
+				18A414D622C85FDE00A1D744 /* CreateAppIdProccessTool.m in Sources */,
+				18A414E722C88C0A00A1D744 /* CacheLocalDeviceProccessResultHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
