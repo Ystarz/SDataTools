@@ -10,14 +10,26 @@
 #define SProccess_h
 
 //Bean
-#import "Bean/SOSSDataBean.h"
+#import "SOSSDataBean.h"
 
 //Tool
-#import "Tool/SProccessTools.h"
+#import "SProccessTools.h"
 
 //Model
-#import "Model/ProccessResult.h"
+#import "ProccessResult.h"
 
 //Handler
-#import "Handler/ProccessResultHandlers.h"
+#import "ProccessResultHandlers.h"
+
+////Bean
+//#import "Bean/SOSSDataBean.h"
+//
+////Tool
+//#import "Tool/SProccessTools.h"
+//
+////Model
+//#import "Model/ProccessResult.h"
+//
+////Handler
+//#import "Handler/ProccessResultHandlers.h"
 #endif /* SProccess_h */
