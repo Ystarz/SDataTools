@@ -7,7 +7,8 @@
 //
 
 #import "BaseProccessTool.h"
-#import "../NSTask+TRTaskAdditions_termination.h"
+#import "NSTask+TRTaskAdditions_termination.h"
+//#import "../NSTask+TRTaskAdditions_termination.h"
 
 @implementation BaseProccessTool
 - (instancetype)init

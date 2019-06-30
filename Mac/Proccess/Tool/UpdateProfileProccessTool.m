@@ -7,7 +7,8 @@
 //
 
 #import "UpdateProfileProccessTool.h"
-#import "../Handler/UpdateProfileProccessResultHandler.h"
+#import "UpdateProfileProccessResultHandler.h"
+//#import "../Handler/UpdateProfileProccessResultHandler.h"
 @implementation UpdateProfileProccessTool
 - (instancetype)init
 {

@@ -7,7 +7,8 @@
 //
 
 #import "UploadLocalDeviceProccessTool.h"
-#import "../Handler/UploadLocalDeviceProccessResultHandler.h"
+#import "UploadLocalDeviceProccessResultHandler.h"
+//#import "../Handler/UploadLocalDeviceProccessResultHandler.h"
 @implementation UploadLocalDeviceProccessTool
 - (instancetype)init
 {

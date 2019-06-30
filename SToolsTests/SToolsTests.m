@@ -7,7 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "../Classes/SDataTools.h"
+//#import "../Classes/SDataTools.h"
+#import "SDataTools.h"
+
 @interface SToolsTests : XCTestCase
 
 @end

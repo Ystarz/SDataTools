@@ -7,8 +7,10 @@
 //
 
 #import "CacheLocalDeviceProccessTool.h"
-#import "../Handler/CacheLocalDeviceProccessResultHandler.h"
-#import "../../../Classes/File/SFileTool.h"
+#import "CacheLocalDeviceProccessResultHandler.h"
+#import "SFileTool.h"
+//#import "../Handler/CacheLocalDeviceProccessResultHandler.h"
+//#import "../../../Classes/File/SFileTool.h"
 
 @implementation CacheLocalDeviceProccessTool
 - (instancetype)init

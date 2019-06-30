@@ -7,7 +7,8 @@
 //
 
 #import "CreateAppIdProccessTool.h"
-#import "../Handler/CreateAppIdProccessResultHandler.h"
+#import "CreateAppIdProccessResultHandler.h"
+//#import "../Handler/CreateAppIdProccessResultHandler.h"
 @implementation CreateAppIdProccessTool
 
 - (instancetype)init

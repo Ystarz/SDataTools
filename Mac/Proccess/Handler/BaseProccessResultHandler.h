@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 //#import "../Model/BaseProccessResult.h"
-#import "../Model/ProccessResult.h"
-#import "../../../Classes/Data/SNSStringTool.h"
+//#import "../Model/ProccessResult.h"
+//#import "../../../Classes/Data/SNSStringTool.h"
+#import "ProccessResult.h"
+#import "SNSStringTool.h"
 
 #define NO_RESULT @"No Result After Proccess Run!"
 #define ALL_SUCCESS @"Success After Proccess Run!"

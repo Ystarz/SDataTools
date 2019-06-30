@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDataTools'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'common tools extension'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ common tools extension.common tools extension.common tools extension.
   s.ios.deployment_target = "9.3"
   s.osx.deployment_target = "10.10"
 
-  s.ios.source_files = 'Classes/**/*.{h,m}','iOS/*.{h,m}' #'SToolsLib/Classes/**/*'
-  s.osx.source_files = 'Classes/**/*.{h,m,mm}','Mac/*.{h,m,mm}'
-  
+  s.ios.source_files = 'Classes/**/*.{h,m}','iOS/**/*.{h,m}' #'SToolsLib/Classes/**/*'
+  s.osx.source_files = 'Classes/**/*.{h,m,mm}','Mac/**/*.{h,m,mm}'
+
   # s.resource_bundles = {
   #   'SToolsLib' => ['SToolsLib/Assets/*.png']
   # }

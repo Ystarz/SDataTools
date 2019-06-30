@@ -7,7 +7,8 @@
 //
 
 #import "CopyThroughOSSProccessTool.h"
-#import "../Handler/CopyThroughOSSProccessResultHandler.h"
+#import "CopyThroughOSSProccessResultHandler.h"
+//#import "../Handler/CopyThroughOSSProccessResultHandler.h"
 @implementation CopyThroughOSSProccessTool
 - (instancetype)init
 {

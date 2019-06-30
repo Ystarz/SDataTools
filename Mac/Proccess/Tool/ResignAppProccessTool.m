@@ -7,7 +7,8 @@
 //
 
 #import "ResignAppProccessTool.h"
-#import "../Handler/ResignAppProccessResultHandler.h"
+//#import "../Handler/ResignAppProccessResultHandler.h"
+#import "ResignAppProccessResultHandler.h"
 @implementation ResignAppProccessTool
 - (instancetype)init
 {
