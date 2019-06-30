@@ -9,5 +9,8 @@
 #import "ShellProccessTool.h"
 
 @implementation ShellProccessTool
+-(NSString*)doWork:(NSString*)content{
+   return [super doWorkOnType:SProccessTypeShell WithContent:content];
+}
 
 @end

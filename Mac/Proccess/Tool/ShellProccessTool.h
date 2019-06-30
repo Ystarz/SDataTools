@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "BaseProccessTool.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ShellProccessTool : NSObject
-
+@interface ShellProccessTool :BaseProccessTool
+-(NSString*)doWork:(NSString*)content;
 @end
 
 NS_ASSUME_NONNULL_END
