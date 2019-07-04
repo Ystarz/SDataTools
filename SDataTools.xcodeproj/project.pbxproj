@@ -111,6 +111,11 @@
 		18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* SDataTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */; };
+		18F46FEC22CDE4500086AD32 /* FastlaneConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414D722C8604A00A1D744 /* FastlaneConfig.h */; };
+		18F46FED22CDE4500086AD32 /* SProccessTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4151322C8AECC00A1D744 /* SProccessTools.h */; };
+		18F46FEE22CDE4570086AD32 /* ProccessResultHandlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4151822C8B14B00A1D744 /* ProccessResultHandlers.h */; };
+		18F46FEF22CDE45B0086AD32 /* SResultEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A414B522C8540500A1D744 /* SResultEnums.h */; };
+		18F46FF022CDE4610086AD32 /* SProccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4151222C8AAE700A1D744 /* SProccess.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -494,9 +499,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F46FEC22CDE4500086AD32 /* FastlaneConfig.h in Headers */,
 				18A414FB22C89D1E00A1D744 /* ResignAppProccessTool.h in Headers */,
 				18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */,
 				183E997E22C345170033956A /* SNSStringTool.h in Headers */,
+				18F46FED22CDE4500086AD32 /* SProccessTools.h in Headers */,
+				18F46FF022CDE4610086AD32 /* SProccess.h in Headers */,
 				18A414DE22C8639000A1D744 /* CreateAppIdProccessResultHandler.h in Headers */,
 				18A414E222C8654300A1D744 /* CacheLocalDeviceProccessTool.h in Headers */,
 				18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */,
@@ -515,6 +523,7 @@
 				18A414AF22C8522C00A1D744 /* ShellProccessResultHandler.h in Headers */,
 				18A414EA22C8928300A1D744 /* UploadLocalDeviceProccessTool.h in Headers */,
 				18A4150722C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.h in Headers */,
+				18F46FEE22CDE4570086AD32 /* ProccessResultHandlers.h in Headers */,
 				18A4150322C8A0B500A1D744 /* CopyThroughOSSProccessTool.h in Headers */,
 				183E997D22C345170033956A /* NSString+SExtension.h in Headers */,
 				183E997622C345070033956A /* ArrayList.h in Headers */,
@@ -529,6 +538,7 @@
 				18A4148F22C7795F00A1D744 /* BaseProccessResultHandler.h in Headers */,
 				18A414DA22C8608800A1D744 /* FastlaneProccessTool.h in Headers */,
 				183E997A22C345070033956A /* LinkedListStack.h in Headers */,
+				18F46FEF22CDE45B0086AD32 /* SResultEnums.h in Headers */,
 				18A414A622C77C5000A1D744 /* ShellProccessTool.h in Headers */,
 				18A4149122C7796600A1D744 /* BaseProccessResult.h in Headers */,
 				183E997B22C345070033956A /* LoopQueue.h in Headers */,

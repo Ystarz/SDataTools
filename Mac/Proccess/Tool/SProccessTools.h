@@ -11,5 +11,18 @@
 
 //Shell
 #import "ShellProccessTool.h"
+#import "FastlaneProccessTool.h"
+#import "CreateAppIdProccessTool.h"
+#import "CacheLocalDeviceProccessTool.h"
+#import "UploadLocalDeviceProccessTool.h"
+#import "UpdateProfileProccessTool.h"
+#import "ResignAppProccessTool.h"
+#import "CopyThroughOSSProccessTool.h"
+
+//Ruby
 #import "RubyProccessTool.h"
+
+
+//Expect
+#import "ExpectProccessTool.h"
 #endif /* SProccessTools_h */
