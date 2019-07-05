@@ -18,6 +18,7 @@
 #import "UpdateProfileProccessTool.h"
 #import "ResignAppProccessTool.h"
 #import "CopyThroughOSSProccessTool.h"
+#import "CertProccessTool.h"
 
 //Ruby
 #import "RubyProccessTool.h"
@@ -25,4 +26,8 @@
 
 //Expect
 #import "ExpectProccessTool.h"
+
+
+//OC
+#import "SOCProccess.h"
 #endif /* SProccessTools_h */
