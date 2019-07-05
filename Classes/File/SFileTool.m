@@ -94,11 +94,15 @@
 
 
 +(bool)copyFile:(NSString*)filePath to:(NSString*)destinationPath isForce:(bool)force{
-    if ([SFileTool isFileExist:destinationPath]&&!force) {
-        return true;
+    if ([SFileTool isFileExist:destinationPath]) {
+        if (!force) {
+            return true;
+        }
+        [SFileTool deleteFile:destinationPath];
     }
-     NSFileManager *fileManager = [NSFileManager defaultManager];
-   return [fileManager copyItemAtPath:filePath toPath:destinationPath error:nil];
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    return [fileManager copyItemAtPath:filePath toPath:destinationPath error:nil];
 }
 
 +(bool)deleteFile:(NSString*)path{

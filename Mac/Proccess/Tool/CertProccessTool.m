@@ -40,6 +40,7 @@
         return pResult;
     }
     //再验证一下目标地址是否有文件
+    sleep(1);
     NSString*cerPath=[[outputPath stringByAppendingPathComponent:pResult.result] stringByAppendingString:@".cer"];
     if (![SFileTool isFileExist:cerPath]) {
         pResult.isRunSucceed=false;
