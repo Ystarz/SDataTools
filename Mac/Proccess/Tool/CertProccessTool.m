@@ -8,6 +8,7 @@
 
 #import "CertProccessTool.h"
 #import "CertProccessResultHandler.h"
+#import "SFileTool.h"
 
 #define RES_NO_CER @"can't find cer on the local path after the script run"
 
