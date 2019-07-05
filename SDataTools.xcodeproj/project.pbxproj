@@ -93,6 +93,8 @@
 		18A4150822C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4150622C8A10400A1D744 /* CopyThroughOSSProccessResultHandler.m */; };
 		18A4150C22C8A2C700A1D744 /* SOSSDataBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4150A22C8A2C700A1D744 /* SOSSDataBean.m */; };
 		18A4150D22C8A2C700A1D744 /* SOSSDataBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4150B22C8A2C700A1D744 /* SOSSDataBean.h */; };
+		18BA6B0122CEE5810051BB17 /* CertProccessResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BA6AFD22CEE57D0051BB17 /* CertProccessResultHandler.h */; };
+		18BA6B0222CEE5810051BB17 /* CertProccessResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA6AFE22CEE57D0051BB17 /* CertProccessResultHandler.m */; };
 		18BCEFFE22B9D43800DE859A /* LoopQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF222B9D43800DE859A /* LoopQueue.h */; };
 		18BCEFFF22B9D43800DE859A /* LinkedListStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCEFF322B9D43800DE859A /* LinkedListStack.h */; };
 		18BCF00022B9D43800DE859A /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCEFF422B9D43800DE859A /* ArrayQueue.m */; };
@@ -209,6 +211,8 @@
 		18A4151222C8AAE700A1D744 /* SProccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SProccess.h; sourceTree = "<group>"; };
 		18A4151322C8AECC00A1D744 /* SProccessTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SProccessTools.h; sourceTree = "<group>"; };
 		18A4151822C8B14B00A1D744 /* ProccessResultHandlers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProccessResultHandlers.h; sourceTree = "<group>"; };
+		18BA6AFD22CEE57D0051BB17 /* CertProccessResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertProccessResultHandler.h; sourceTree = "<group>"; };
+		18BA6AFE22CEE57D0051BB17 /* CertProccessResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertProccessResultHandler.m; sourceTree = "<group>"; };
 		18BCEFF222B9D43800DE859A /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
 		18BCEFF322B9D43800DE859A /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
 		18BCEFF422B9D43800DE859A /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
@@ -379,6 +383,8 @@
 		18A4148822C7752800A1D744 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				18BA6AFD22CEE57D0051BB17 /* CertProccessResultHandler.h */,
+				18BA6AFE22CEE57D0051BB17 /* CertProccessResultHandler.m */,
 				18A4148322C766A600A1D744 /* BaseProccessResultHandler.h */,
 				18A4148422C766A600A1D744 /* BaseProccessResultHandler.m */,
 				18A414AD22C8522C00A1D744 /* ShellProccessResultHandler.h */,
@@ -513,6 +519,7 @@
 				18A4148222C7623F00A1D744 /* BaseProccessTool.h in Headers */,
 				18A414B822C8559200A1D744 /* FastlaneProccessResultHandler.h in Headers */,
 				183E998022C345170033956A /* STimeTool.h in Headers */,
+				18BA6B0122CEE5810051BB17 /* CertProccessResultHandler.h in Headers */,
 				18A4150D22C8A2C700A1D744 /* SOSSDataBean.h in Headers */,
 				18EB068C22C45D0500434EE0 /* NSTimer+ChatAdd.h in Headers */,
 				18A414BC22C8561100A1D744 /* ProccessResult.h in Headers */,
@@ -774,6 +781,7 @@
 				18A4147222C4BE2A00A1D744 /* ArrayQueue.m in Sources */,
 				18A414A822C77C5000A1D744 /* RubyProccessTool.m in Sources */,
 				18A414E322C8654300A1D744 /* CacheLocalDeviceProccessTool.m in Sources */,
+				18BA6B0222CEE5810051BB17 /* CertProccessResultHandler.m in Sources */,
 				18A4147522C4BE2A00A1D744 /* LinkedListStack.m in Sources */,
 				18A4147922C4BE2F00A1D744 /* NSString+SExtension.m in Sources */,
 				18A414EF22C8964B00A1D744 /* UploadLocalDeviceProccessResultHandler.m in Sources */,
