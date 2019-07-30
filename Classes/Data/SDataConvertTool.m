@@ -73,9 +73,10 @@
 }
 +(NSDictionary*)plistStrToDic:(NSString*)str{
     NSData* plistData = [str dataUsingEncoding:NSUTF8StringEncoding];
-    NSString *error;
+    NSError *error;
     NSPropertyListFormat format;
-    NSDictionary* plist = [NSPropertyListSerialization propertyListFromData:plistData mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
+    NSDictionary* plist =[NSPropertyListSerialization propertyListWithData:plistData options:NSPropertyListImmutable format:&format error:&error];
+//    NSDictionary* plist = [NSPropertyListSerialization propertyListFromData:plistData mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
     NSLog( @"plist is %@", plist );
     if(!plist){
         NSLog(@"Error: %@",error);
