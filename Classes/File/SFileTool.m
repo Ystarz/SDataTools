@@ -115,6 +115,16 @@
         return true;}
 }
 
++(bool)deleteDir:(NSString*)path{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    BOOL isDir=true;
+    if([fileManager fileExistsAtPath:path isDirectory:&isDir]){
+        return [fileManager removeItemAtPath:path error:nil];
+    }
+    else{
+        return true;}
+}
+
 +(NSString*)fileMD5:(NSString*)path
 
 {
@@ -123,7 +133,14 @@
     
 }
 
-
++(NSArray*)getAllFileNameInDir:(NSString*)dir{
+    if(![SFileTool isDirExist:dir]){
+        return [NSArray new];
+    }
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    return [fileManager contentsOfDirectoryAtPath:dir error:nil];
+    
+}
 
 //+(NSString*)fileMD5:(NSString*)path
 //{

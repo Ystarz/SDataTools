@@ -71,6 +71,25 @@
     NSDictionary* obj = (NSDictionary*)[NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
     return obj;
 }
++(NSDictionary*)plistStrToDic:(NSString*)str{
+    NSData* plistData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *error;
+    NSPropertyListFormat format;
+    NSDictionary* plist = [NSPropertyListSerialization propertyListFromData:plistData mutabilityOption:NSPropertyListImmutable format:&format errorDescription:&error];
+    NSLog( @"plist is %@", plist );
+    if(!plist){
+        NSLog(@"Error: %@",error);
+    }
+    return plist;
+}
+
++(NSArray*)JsonToArr:(NSString*)json{
+    return (NSArray*)[SDataConvertTool JsonToDic:json];
+}
+
++(NSArray*)DataToArr:(NSData*)data{
+    return (NSArray*)[SDataConvertTool DataToDic:data];
+}
 
 +(long long)timeStringToTimeStamp:(NSString*)str{
     // 日期格式化类
