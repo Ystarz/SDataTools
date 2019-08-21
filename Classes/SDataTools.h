@@ -47,6 +47,7 @@ FOUNDATION_EXPORT const unsigned char SDataToolsLib_MacVersionString[];
 #import "SNSStringTool.h"
 #import "STimeTool.h"
 #import "SDataConvertTool.h"
+#import "SMathTool.h"
 
 //DataClasses
 #import "ArrayList.h"
