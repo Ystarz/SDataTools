@@ -59,7 +59,7 @@ FOUNDATION_EXPORT const unsigned char SDataToolsLib_MacVersionString[];
 
 //Other
 #import "SQueue.h"
-
+#import "STimerManager.h"
 
 
 // In this header, you should import all the public headers of your framework using statements like #import <STools/PublicHeader.h>

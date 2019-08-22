@@ -71,6 +71,10 @@
 		18EB068D22C45D9D00434EE0 /* SDataTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F3CE122B76AA0009023F2 /* SDataTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EB069122C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EB069322C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */; };
+		18EEA935230E3CFD003B214E /* STimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EEA933230E3CFD003B214E /* STimerManager.h */; };
+		18EEA936230E3CFD003B214E /* STimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EEA933230E3CFD003B214E /* STimerManager.h */; };
+		18EEA937230E3CFD003B214E /* STimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA934230E3CFD003B214E /* STimerManager.m */; };
+		18EEA938230E3CFD003B214E /* STimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEA934230E3CFD003B214E /* STimerManager.m */; };
 		18F274C8230A74C500E876A8 /* NSObject+SExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F274C6230A74C500E876A8 /* NSObject+SExtension.h */; };
 		18F274C9230A74C500E876A8 /* NSObject+SExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F274C7230A74C500E876A8 /* NSObject+SExtension.m */; };
 /* End PBXBuildFile section */
@@ -134,6 +138,8 @@
 		18EB05E322C3BD6800434EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EB068E22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+TRTaskAdditions_termination.h"; sourceTree = "<group>"; };
 		18EB068F22C4675100434EE0 /* NSTask+TRTaskAdditions_termination.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSTask+TRTaskAdditions_termination.mm"; sourceTree = "<group>"; };
+		18EEA933230E3CFD003B214E /* STimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STimerManager.h; sourceTree = "<group>"; };
+		18EEA934230E3CFD003B214E /* STimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STimerManager.m; sourceTree = "<group>"; };
 		18F274C6230A74C500E876A8 /* NSObject+SExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SExtension.h"; sourceTree = "<group>"; };
 		18F274C7230A74C500E876A8 /* NSObject+SExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,6 +233,7 @@
 		182F3CE022B76AA0009023F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				18EEA932230E3CDD003B214E /* Timer */,
 				182F3CE122B76AA0009023F2 /* SDataTools.h */,
 				18BCEFF122B9D43800DE859A /* DataClasses */,
 				18207A9322B7855A0003688E /* File */,
@@ -301,6 +308,15 @@
 			path = SDataToolsLib_MacTests;
 			sourceTree = "<group>";
 		};
+		18EEA932230E3CDD003B214E /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				18EEA933230E3CFD003B214E /* STimerManager.h */,
+				18EEA934230E3CFD003B214E /* STimerManager.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -316,6 +332,7 @@
 				183E996822C344B00033956A /* SQueue.h in Headers */,
 				18BCF00722B9D43800DE859A /* ArrayList.h in Headers */,
 				18BA6B4022CF26430051BB17 /* SFileTool.h in Headers */,
+				18EEA935230E3CFD003B214E /* STimerManager.h in Headers */,
 				18207A6422B77D170003688E /* STimeTool.h in Headers */,
 				18207A6522B77D170003688E /* SDataConvertTool.h in Headers */,
 				18BCF00822B9D43800DE859A /* ArrayStack.h in Headers */,
@@ -340,6 +357,7 @@
 				183E997F22C345170033956A /* SDataConvertTool.h in Headers */,
 				183E998222C345170033956A /* SQueue.h in Headers */,
 				183E997D22C345170033956A /* NSString+SExtension.h in Headers */,
+				18EEA936230E3CFD003B214E /* STimerManager.h in Headers */,
 				183E997622C345070033956A /* ArrayList.h in Headers */,
 				18BA6B4122CF26430051BB17 /* SFileTool.h in Headers */,
 				183E997722C345070033956A /* ArrayQueue.h in Headers */,
@@ -535,6 +553,7 @@
 				18BCF00122B9D43800DE859A /* ArrayList.m in Sources */,
 				183E998822C3498B0033956A /* NSObject+ChatAdd.m in Sources */,
 				18207A5F22B77D170003688E /* SDataConvertTool.m in Sources */,
+				18EEA937230E3CFD003B214E /* STimerManager.m in Sources */,
 				18BA6B4222CF26430051BB17 /* SFileTool.m in Sources */,
 				18BCF00422B9D43800DE859A /* LinkedListStack.m in Sources */,
 				18BCF00322B9D43800DE859A /* ArrayStack.m in Sources */,
@@ -564,6 +583,7 @@
 				18A4147822C4BE2F00A1D744 /* NSTimer+ChatAdd.m in Sources */,
 				18A4147A22C4BE2F00A1D744 /* SDataConvertTool.m in Sources */,
 				18A4147322C4BE2A00A1D744 /* ArrayStack.m in Sources */,
+				18EEA938230E3CFD003B214E /* STimerManager.m in Sources */,
 				18A4147622C4BE2A00A1D744 /* LoopQueue.m in Sources */,
 				18A4147B22C4BE2F00A1D744 /* STimeTool.m in Sources */,
 				18A4147222C4BE2A00A1D744 /* ArrayQueue.m in Sources */,
