@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 //Data
 #import "NSObject+ChatAdd.h"
-
+#import "NSObject+SExtension.h"
 
 //! Project version number for STools.
 FOUNDATION_EXPORT double SToolsVersionNumber;

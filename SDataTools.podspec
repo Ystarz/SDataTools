@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDataTools'
-  s.version          = '0.3.7'
+  s.version          = '0.3.8'
   s.summary          = 'common tools extension'
 
 # This description is used to generate tags and improve search results.
