@@ -98,8 +98,13 @@
 }
 
 +(bool)moveFile:(NSString*)filePath to:(NSString*)destinationPath isForce:(bool)force{
-    if ([SFileTool isFileExist:destinationPath]&&!force) {
-        return true;
+    if ([SFileTool isFileExist:destinationPath]) {
+        if (force) {
+            if(![SFileTool deleteFile:destinationPath]) return false;
+        }
+        else{
+            return true;
+        }
     }
     NSFileManager *fileManager = [NSFileManager defaultManager];
     return [fileManager moveItemAtPath:filePath toPath:destinationPath error:nil];
